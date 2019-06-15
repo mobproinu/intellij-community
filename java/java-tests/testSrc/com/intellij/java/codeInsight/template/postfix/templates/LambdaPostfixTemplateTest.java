@@ -54,7 +54,31 @@ public class LambdaPostfixTemplateTest extends PostfixTemplateTestCase {
   public void testSimple() {
     doTest();
   }
-  
+
+  public void testMethod() {
+    doTest();
+  }
+
+  public void testBlock() {
+    doTest();
+  }
+
+  public void testThis() {
+    doTest();
+  }
+
+  public void testLiteral() {
+    doTest();
+  }
+
+  public void testField() {
+    doTest();
+  }
+
+  public void testArray() {
+    doTest();
+  }
+
   public void testDoNotExpandOnJavaLess8() {
     IdeaTestUtil.setModuleLanguageLevel(getModule(), LanguageLevel.JDK_1_6, myFixture.getTestRootDisposable());
     doTest();
